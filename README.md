@@ -15,7 +15,6 @@ This project demonstrates a micro frontend architecture using two different tech
 micro-frontend/
 ├── next-app/ # Next.js application
 ├── nuxt-app/ # Nuxt.js application
-├── container.html # Container file for navigation
 ├── package.json # Package file for managing scripts
 ├── README.md
 ```
