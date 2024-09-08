@@ -1,0 +1,17 @@
+{
+  "name": "micro-frontend",
+  "version": "1.0.0",
+  "description": "This is practice of micro frontend architecture",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run dev-next\" \"npm run dev-nuxt\"",
+    "dev-next": "cd next-app && npm run dev",
+    "dev-nuxt": "cd nuxt-app && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
